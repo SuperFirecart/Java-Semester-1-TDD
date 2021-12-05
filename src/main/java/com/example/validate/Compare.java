@@ -1,4 +1,4 @@
-package com.example;
+package com.example.validate;
 
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.validate;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,7 +10,7 @@ public class MainController extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException{
         primaryStage.setTitle("User Registrar");
-        FXMLLoader registerFXML = new FXMLLoader(MainController.class.getResource("test/LoginChecker.fxml"));
+        FXMLLoader registerFXML = new FXMLLoader(MainController.class.getResource("/com/example/necessaryFXML/LoginChecker.fxml"));
         Scene scene = new Scene(registerFXML.load(), 300, 375);
         primaryStage.setScene(scene);
         primaryStage.show();

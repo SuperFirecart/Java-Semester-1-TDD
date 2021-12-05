@@ -1,8 +1,7 @@
-module java.com.example {
+module com.example.validate{
     requires javafx.controls;
     requires javafx.fxml;
 
-
-    opens com.example to javafx.fxml;
-    exports com.example;
+    exports com.example.validate;
+    opens com.example.validate to javafx.fxml;
 }
